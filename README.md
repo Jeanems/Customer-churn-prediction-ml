@@ -1,14 +1,8 @@
 # Customer-churn-prediction-ml
 Proyecto de Machine Learning para predecir la fuga de clientes (churn) en Beta Bank. Incluye análisis exploratorio, preparación de datos y entrenamiento de modelos supervisados para apoyar decisiones de retención de clientes.
-
----
-
-# ✅ ✅ ✅ README #2 — *Customer Churn Prediction*  
-
-```markdown
 # 🤖 Customer Churn Prediction – Machine Learning Project
 
-Proyecto desarrollado como parte del programa de **Data Science en TripleTen**, enfocado en predecir la **fuga de clientes (churn)** del banco *Beta Bank* mediante modelos de Machine Learning.
+Proyecto desarrollado como parte del programa de **Data Science – TripleTen**, enfocado en predecir la fuga de clientes (churn) del banco *Beta Bank* mediante modelos de Machine Learning supervisado.
 
 ---
 
@@ -20,8 +14,7 @@ Construir un modelo predictivo que identifique clientes con mayor probabilidad d
 
 ## 📊 Dataset
 
-El dataset incluye variables como:
-
+El dataset incluye características como:
 - Edad  
 - Género  
 - Estado civil  
@@ -29,35 +22,31 @@ El dataset incluye variables como:
 - Balance promedio  
 - Productos contratados  
 - Actividad bancaria  
-- Churn (0 o 1)
+- Variable objetivo: **churn**
 
 ---
 
 ## 🧠 Procesos realizados
 
-### Análisis exploratorio
+### 🔍 Análisis exploratorio (EDA)
 - Estadísticas descriptivas  
-- Distribuciones  
-- Relaciones entre variables  
-- Identificación del desbalance de clases  
+- Visualización de distribuciones  
+- Detección de desbalance de clases  
 
-### Preparación de datos
-- Codificación de categorías  
+### 🧹 Preparación de datos
+- Codificación de variables  
 - Escalado  
 - División en train/test  
-- Oversampling para corregir desbalance  
+- Técnicas para balancear el dataset (oversampling)
 
-### Modelado
+### 🤖 Modelado
 Modelos utilizados:
-
 - Regresión Logística  
 - Árbol de Decisión  
 - Random Forest  
 - Gradient Boosting  
 
-### Evaluación
-Métricas:
-
+### 📏 Evaluación
 - Accuracy  
 - Precision  
 - Recall  
@@ -68,20 +57,19 @@ Métricas:
 
 ## ✅ Resultados
 
-Los modelos de árboles lograron el mejor desempeño en la predicción del churn.  
-El modelo final logró una clasificación robusta y permitió identificar variables clave relacionadas con el abandono.
+Los modelos basados en árboles (Random Forest y Gradient Boosting) presentaron el mejor rendimiento para predecir la fuga de clientes.
 
 ---
 
 ## 📁 Archivos incluidos
 
 - `Aprendizaje supervisado.ipynb`  
-- `README.md`  
+- `README.md`
 
 ---
 
 ## 🚀 Cómo ejecutar
 
-1. Clonar este repositorio:
+1. Clonar el repositorio:
    ```bash
    git clone https://github.com/Jeanems/customer-churn-prediction-ml.git
